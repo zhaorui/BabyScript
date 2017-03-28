@@ -712,6 +712,9 @@
 DQ
 </string>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="dismissWordCountWindow:" target="VXt-1S-pIs" id="BTd-Am-c7G"/>
+                                </connections>
                             </button>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f6b-9N-Ewn">
                                 <rect key="frame" x="18" y="108" width="100" height="22"/>

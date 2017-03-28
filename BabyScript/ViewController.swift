@@ -51,6 +51,9 @@ class ViewController: NSViewController {
       // 3
       let application = NSApplication.shared()
       application.runModal(for: wordCountWindow)
+      
+      //4 If we run the modal window, we would block the main thread!!
+      print("Hey, we just show a modal window")
     }
   }
 }
